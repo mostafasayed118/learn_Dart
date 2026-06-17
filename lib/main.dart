@@ -234,6 +234,95 @@ print(nameNull);
 print(nameNull);
 print(nameNull?.length); // null 
 print(nameNull?.length??0); // 0 
+//for loops
+for (int i = 0; i < 5; i++) {
+  print(i);
+}
+
+List<String> nameList = ["Mustafa", "Husam", "Ali"];
+for (int i = 0; i < nameList.length; i++) {
+  print(nameList[i]);
+}
+
+//while loop
+int i=0;
+while(i<5){
+  print(i);
+  i++;
+}
+// do while loop
+do {
+  print(i);
+  i++;
+} while (i < 5);
+
+//for in
+List<String> nameListForIn = ["Mustafa", "Husam", "Ali"];
+for(var name in nameListForIn){
+  print(name);
+}
+//for each loop
+List<String> nameListForEach = ["Mustafa", "Husam", "Ali"];
+nameListForEach.forEach((name) {
+  print(name);
+});
+// Functions
+void myStory(){
+  print("Hello my name is Mustafa");
+  print("I am 26 years old");
+  print("I am from Egypt");
+}
+myStory();
+
+int sumTwoNumbers(){
+  int a=10;
+  int b=20;
+  int result2=a+b;
+  return result2;
+}
+print(sumTwoNumbers());
+
+int substructTwoNumbers(int a, int b){
+  int result3=a-b;
+  return result3;
+}
+print(substructTwoNumbers(10, 20));
+
+
+int multiplyTwoNumbers(int a, int b){
+  int result4=a*b;
+  return result4;
+}
+print(multiplyTwoNumbers(10, 20));
+
+int dividTwoNumbers(int a, int b){
+  int result5=a~/b;
+  return result5;
+}
+print(dividTwoNumbers(10, 20));
+
+double dividTwoNumbersDouble(int a, int b){
+  double result6=a/b;
+  return result6;
+}
+print(dividTwoNumbersDouble(10, 20));
+double calcDiscount(double price,double discount){
+  return price*discount;
+}
+print(calcDiscount(100, 0.1));
+
+double calcDiscount2(double price,[double discount=0.1]){
+  double discount2=price*discount;
+  return price-discount2;
+}
+print(calcDiscount2(100,0.6));
+
+double calacDiscount3({required double price, double discount=0}){
+  double discount2= price * (discount/100);
+  return price-discount2;
+}
+print(calacDiscount3(price: 100,discount: 15));
+print(calacDiscount3(price: 100));
 
 
 
