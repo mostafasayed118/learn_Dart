@@ -1,84 +1,86 @@
+import 'animal.dart';
+
 void main() {
   // print statement
-  print("Hello World");
+  // print("Hello World");
 
-  // variable string
-  String name = "Mustafa";
-  print("My Name is $name");
-  name = "Husam";
-  print("My Name is $name");
+  // // variable string
+  // String name = "Mustafa";
+  // print("My Name is $name");
+  // name = "Husam";
+  // print("My Name is $name");
 
-  String text = "Mustafa's";
-  print(text);
+  // String text = "Mustafa's";
+  // print(text);
 
-  // int number
-  int number = 10;
-  print("Number is $number");
-  // Double
-  double rate = 10.65;
-  print("Rate is $rate");
-  // bool
-  bool isTrue = true; //true or false
-  print("Is True is $isTrue");
-  // dynamic
-  dynamic anything = "Mustafa";
-  print("Anything is $anything");
-  anything = 10;
-  print("Anything is $anything");
-  anything = 10.65;
-  print("Anything is $anything");
-  anything = true;
-  print("Anything is $anything");
-  // var
-  var number2 = 20;
-  print("Number is $number2");
-  //arithmetic operations
-  int a = 10;
-  int b = 20;
-  int result = a + b;
-  print("a + b = $result");
-  result = a - b;
-  print("a - b = $result");
-  result = a * b;
-  print("a * b = $result");
-  result = a % b;
-  print("a % b = $result");
-  result = a ~/ b;
-  print("a ~/ b = $result");
-  double result2 = a / b;
-  print("a / b = $result2");
-  //unary operations
-  result++;
-  print("result++ = $result");
-  result--;
-  print("result-- = $result");
+  // // int number
+  // int number = 10;
+  // print("Number is $number");
+  // // Double
+  // double rate = 10.65;
+  // print("Rate is $rate");
+  // // bool
+  // bool isTrue = true; //true or false
+  // print("Is True is $isTrue");
+  // // dynamic
+  // dynamic anything = "Mustafa";
+  // print("Anything is $anything");
+  // anything = 10;
+  // print("Anything is $anything");
+  // anything = 10.65;
+  // print("Anything is $anything");
+  // anything = true;
+  // print("Anything is $anything");
+  // // var
+  // var number2 = 20;
+  // print("Number is $number2");
+  // //arithmetic operations
+  // int a = 10;
+  // int b = 20;
+  // int result = a + b;
+  // print("a + b = $result");
+  // result = a - b;
+  // print("a - b = $result");
+  // result = a * b;
+  // print("a * b = $result");
+  // result = a % b;
+  // print("a % b = $result");
+  // result = a ~/ b;
+  // print("a ~/ b = $result");
+  // double result2 = a / b;
+  // print("a / b = $result2");
+  // //unary operations
+  // result++;
+  // print("result++ = $result");
+  // result--;
+  // print("result-- = $result");
 
-  //Dot operator
-  var number3 = 10.5;
-  print("Number is $number3");
-  print("Number floor is ${number3.floor()}");
-  print("Number ceil is ${number3.ceil()}");
-  print("Number round is ${number3.round()}");
-  print("Number truncate is ${number3.truncate()}");
-  //
-  String name3 = "Mustafa";
-  print("Name is $name3");
-  print("Name in uppercase is ${name3.toUpperCase()}");
-  print("Name in lowercase is ${name3.toLowerCase()}");
-  print("Name length is ${name3.length}");
-  print("Name contains Mustafa is ${name3.contains("Mustafa")}");
-  print("Name starts with M is ${name3.startsWith("M")}");
-  print("Name ends with a is ${name3.endsWith("a")}");
-  print("Name index of a is ${name3.indexOf("a")}");
+  // //Dot operator
+  // var number3 = 10.5;
+  // print("Number is $number3");
+  // print("Number floor is ${number3.floor()}");
+  // print("Number ceil is ${number3.ceil()}");
+  // print("Number round is ${number3.round()}");
+  // print("Number truncate is ${number3.truncate()}");
+  // //
+  // String name3 = "Mustafa";
+  // print("Name is $name3");
+  // print("Name in uppercase is ${name3.toUpperCase()}");
+  // print("Name in lowercase is ${name3.toLowerCase()}");
+  // print("Name length is ${name3.length}");
+  // print("Name contains Mustafa is ${name3.contains("Mustafa")}");
+  // print("Name starts with M is ${name3.startsWith("M")}");
+  // print("Name ends with a is ${name3.endsWith("a")}");
+  // print("Name index of a is ${name3.indexOf("a")}");
 
-  //collection
-  // List
-  List<String> partsOfMyName = ["Mustafa", "Husam", "Ali"];
-  print(partsOfMyName);
-  print("Names is $partsOfMyName");
-  print('First Name is ${partsOfMyName[0]}');
-  print('Second Name is ${partsOfMyName[1]}');
-  print('Third Name is ${partsOfMyName[2]}');
+  // //collection
+  // // List
+  // List<String> partsOfMyName = ["Mustafa", "Husam", "Ali"];
+  // print(partsOfMyName);
+  // print("Names is $partsOfMyName");
+  // print('First Name is ${partsOfMyName[0]}');
+  // print('Second Name is ${partsOfMyName[1]}');
+  // print('Third Name is ${partsOfMyName[2]}');
 
   //set
 
